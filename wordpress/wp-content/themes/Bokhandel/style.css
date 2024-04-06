@@ -1,0 +1,333 @@
+/*
+Theme Name: Bokhandel
+Author: Alexander Klum
+Version: 1.0
+Description: Min slutupgift i kursen CMS 2.
+*/
+
+
+/*   --- ALLA SIDOR ---   */
+
+body 
+{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: rgb(114,114,114);
+    background: linear-gradient(0deg, rgba(114,114,114,1) 0%, rgba(66,66,66,1) 40%, rgba(38,38,38,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.container 
+{
+    width: 80%;
+}
+
+
+/*  --- HEADER ---  */
+
+.header-container 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    background-color: #FFF; 
+}
+
+.header-menu 
+{
+    display: flex;
+    width: 25%;
+    padding-left: 6%;
+    justify-content: space-evenly;
+}
+
+.menu-btn 
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: rgba(38,38,38,1);
+}
+.menu-btn:hover 
+{
+    color: rgb(122, 122, 122);
+}
+.menu-btn:active 
+{
+    color: rgba(38,38,38,1);
+}
+
+.kundvagn-btn 
+{
+    margin-left: 64%;
+}
+
+
+/*  --- FOOTER ---  */
+
+.footer-container 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    width:100%;
+    height: 134px;
+    background-color: rgba(114,114,114,1) 0%;
+
+}
+
+.kontakt-container 
+{
+    margin-left: 4%;
+}
+
+.kontakt-h4 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: rgba(225, 225, 225, 90%);
+}
+
+.kontakt-p 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(225, 225, 225, 90%);
+}
+
+.copyright 
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgba(225, 225, 225, 90%);
+    margin-left: 70%;
+    margin-top: 114px;
+}
+
+
+/*  --- STARTSIDAN & KATEGORISIDOR ---  */
+
+
+.titel-sida 
+{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #FFF;
+    margin-bottom: -1%;
+}
+
+.beskrivning-kategori 
+{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #FFF;
+}
+
+.paragraph-text 
+{
+    color: #FFF;
+}
+
+
+/*  KOPIERA ALLT UNDER DETTA TILL "EXTRA CSS" I TEMAT OM DET INTE REDAN LIGGER DÄR. */
+
+/* All Woocommerce css (Samma som jag lagt i "Extra CSS")  */
+
+#woocommerce-container {
+	width:90%;
+	margin-bottom: 20%;
+}
+
+.woocommerce-breadcrumb {
+	display:flex;
+	flex-flow: row nowrap;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #FFF;
+	margin-top: 5px;
+	margin-left: 3%;
+}
+.woocommerce-breadcrumb a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.woocommerce-notices-wrapper {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	padding-right: 20px;
+	padding-bottom: -5px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.woocommerce-notices-wrapper a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.wp-block-product-new {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.wp-block-heading {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wp-block-navigation__responsive-container-content {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 6px;
+	font-size: 18px;
+}
+
+.added_to_cart {
+	display: none;
+}
+
+.wp-block-post-title a {
+	text-decoration: none;
+	color: #FFF;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wp-block-button__link {
+	background: #FFF;
+	color: black;
+}
+
+.woocommerce-Price-amount {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.woocommerce-product-gallery__image {
+	margin-top: 10%;
+	margin-left: 35%;
+}
+.entry-summary {
+	margin-left: 55%;
+	margin-top: -19%;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.wc-tabs-wrapper {
+	margin-left: 35%;
+	margin-top: 10%;
+	color: #FFF;
+}
+.wc-tabs {
+	display:none;
+}
+.input-text {
+	width: 40px;
+	margin-top: 50px;
+}
+.single_add_to_cart_button {
+	height: 40px;
+	width: 100px;
+	background: #FFF;
+	border: none;
+}
+
+.wc-block-grid a {
+    text-decoration: none;
+	  letter-spacing: 1.5px;
+    color: #F2F2F2;
+}
+.wc-block-grid {
+	color: #F2F2F2;
+}
+.wp-block-button a{
+	 color: black;
+	background: white;
+	margin-bottom: 10%;
+}
+
+.shop_table th {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.cart_item {
+	background: #555;
+}
+.actions {
+	background: #555;
+}
+.quantity {
+	padding-bottom: 50px;
+}
+.product-price span {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.product-subtotal span {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.product-name a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.coupon {
+	display:none;
+}
+
+.cart_totals {
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+.cart-subtotal {
+	background: #555;
+}
+.order-total {
+	background: #555;
+}
+
+.woocommerce-form-coupon-toggle {
+	display: none;
+}
+.woocommerce-checkout {
+	margin-top: 2%;
+	background: #555;
+	color: white;
+	padding: 2%;
+	border-radius: 6px;
+	margin-bottom: 10%;
+}
+.wc_payment_methods {
+	background: #666;
+}
+.place-order {
+	background: #666;
+}
+#place_order {
+	background: #fff;
+	color: #121212;
+}
