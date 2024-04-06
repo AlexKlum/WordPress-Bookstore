@@ -1,6 +1,6 @@
 # WordPress-Bookstore
 
-A WordPress bookstore created with the WooCoomerce plugin.
+A simple WordPress bookstore created with the WooCoomerce plugin.
 
 I used Docker to run it localy.
 
